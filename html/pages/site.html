@@ -1,53 +1,166 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="site.css">
-    <title> Projeto Simulado</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+    </style>
+
+    <title>Simulado</title>
+
 </head>
+
 <body>
-    <div class="container_site">
-        <div class="menu">
-            <div class="titulo">
-                <div class="logo"><img src="../assets/images/book.png" alt="logoDevSchool"></div>
-                <span><span class="tit">Dev</span>School</span>
+  <div class="Box-Site"> 
+    <div class="left-box">
+        <header class="header-left-box">
+            <div class="svg-cabecalho-left-box"> <img src="/html-css-puro/public/assets/images/Group107.svg" /></div>
+            <div class="devSchool"> <span>Dev</span>School</div>
+        </header>
+        <div class="black-box"></div>
+        <div class="left-box-management">
+            <div> Gerenciamento </div>
+            <img src="/html-css-puro/public/assets/images/SetaBaixo.svg" />
+        </div>
+        <div class="left-box-aluno">
+            <div> Alunos </div>
+        </div> 
+    </div>
+
+      <div class="right-box"> 
+        <div class="reader-right-box">
+           <div class = "box-user"> 
+             <div class="user-image">  <img src="/html-css-puro/public/assets/images/Bruninho.png" alt = ""> <div class="absolute">  3   </div> </img> </div>
+             
+             <div class="user-name"> Olá, <b>  Bruno de Oliveira </b> </div>
             </div>
-            <div class="menu-gerenciamento">
-                <div class="ger"><span>Gerenciamento</span><button><img src="../assets/images/Vector.png" alt="vector_seta"></button></div>
-                <div class="alunos"> Alunos </div>
+            <div class="box-image">
+                <div class="refresh-button"> <button> <img src="/html-css-puro/public/assets/images/Vector.svg" alt = "" />  </button> </div>
+                <div class="left-button"> <button> <img src="/html-css-puro/public/assets/images/Group_104.svg" alt = "" />  </button> </div>
             </div>
         </div>
-
-        <div class="conteudo">
-            <div class="cabecalho">
-                <div class="esquerda">
-                    <div class="perfil"><img src="../assets/images/perfil_3.jpg" alt="foto de perfil Katniss Everdeen"></div>
-                    <div class="ola">Olá, Katniss Everdeen</div>
+        <div class="bottom-bar-right-header"> </div>
+      
+        <div class="body-right-box">
+            <div class="new-student-box">
+                <div class="text-new-student">
+                    <div class="bar-new-student"></div>
+                    <div class="text-new-student">Novo Aluno</div>
                 </div>
+                <div class="input-new-student"> 
+                    <div class="input-left">
+                       <div class="agp-input"> 
+                        
+                        <div class="name-student"> Nome: </div>  
+                        <div class="input"> <input /> </div>  
+                    </div> 
+                    <div class="agp-input">
+                        <div class="number-student"> Chamada: </div>  
+                        <div class="input"> <input /> </div> 
 
-                <div class="direita"> 
-                    <span class="carregar"><button><img src="../assets/images/refresh2 1.png" alt="carregar"></button></span>
-                    <span class="sair"><button><img src="../assets/images/log-out.png" alt="sair"></button></span>
+                       </div>
+                    </div>
+                    <div class="input-right">
+                     <div class="agp-input">
+                        <div class="corse-student"> Curso: </div>  
+                        <div class="input"> <input /> </div>  
+                        </div>
+                     <div class="agp-input">
+                        <div class="class-student"> Turma: </div>  
+                        <div class="input"> <input /> </div> 
+                        </div>
+                    </div>
+                    <div class="button-create"> <button> Cadastrar </button> </div>
                 </div>
-                
             </div>
-            <div class="cadastro">
-                <div class="alunos"></div>
 
-                <div class="campos">
-                   <label for="">Nome:</label> <input type="text"> 
-                   <label for="">Chamada:</label> <input type="text">
-                   <label for="">Curso:</label> <input type="text">
-                   <label for="">Chamada:</label> <input type="text">
+            <div class="student-registered-box">
+                <div class="row-bar"> 
+                    <div class= "bar-new-student"> </div>
+                    <div class="text-registered-student"> Alunos Matriculados </div>
                 </div>
+            
+                <table class ="table-user">
+                    <thead>
+                        <tr>
+                            <th > ID </th>
+                            <th> Nome </th>
+                            <th> Chamada </th>
+                            <th> Turma </th>
+                            <th> Curso </th>
+                            <th class="a"> </th>
+                            <th class="a"> </th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                        <tr >
+                            <td> 1 </td>
+                            <td> Fulao da Silva Sauro</td>
+                            <td> 15 </td>
+                            <td> InfoX </td>
+                            <td > Informática </td>
+                            <td> <button> <img src="/html-css-puro/public/assets/images/editiButton.svg" alt="" /> </button> </td>
+                            <td class = "aa">   <button> <img src="/html-css-puro/public/assets/images/Group106.svg" alt="" /> </button> </td>
+                        </tr>
 
-                <div class="cadastrar"><button>Cadastrar</button></div>
+                        
+                    
+
+                    
+                        <tr class="int">
+                            <td> 1 </td>
+                            <td> Fulao da Silva Sauro</td>
+                            <td> 16 </td>
+                            <td> InfoX </td>
+                            <td > Informática </td>
+                            <td>   </td>
+                            <td>   </td>
+                        </tr>
+
+                        
+                    
+
+                    
+                        <tr>
+                            <td> 1 </td>
+                            <td> Fulao da Silva Sauro</td>
+                            <td> 17 </td>
+                            <td> InfoX </td>
+                            <td > Informática </td>
+                            <td>   </td>
+                            <td>   </td>
+                        </tr>
+
+                        
+                    
+
+                    
+                        <tr class="int">
+                            <td> 1 </td>
+                            <td> Fulao da Silva Sauro</td>
+                            <td> 18 </td>
+                            <td> InfoX </td>
+                            <td > Informática </td>
+                            <td>   </td>
+                            <td>   </td>
+                        </tr>
+
+                        
+                    </tbody> 
+
+                </table>
+          
             </div>
-
-            <div class="tabela"></div>
         </div>
     </div>
+  </div>
+
+
 </body>
+
 </html>
